@@ -1,0 +1,28 @@
+[
+  {
+    "file": "goyal_welch.csv",
+    "bytes": 492873,
+    "sha256": "bee1b259e7dde63f82171ff93512362146b45ac210b19628330dec758cbb18d5",
+    "source": "Goyal and Welch monthly predictor update, 2024; frozen study CSV"
+  },
+  {
+    "file": "fred_md_2026_09.csv",
+    "url": "https://www.stlouisfed.org/-/media/project/frbstl/stlouisfed/research/fred-md/monthly/2026-09-md.csv",
+    "bytes": 669656,
+    "sha256": "d6e239038afbdbf4667c2a63c13c942817bc196fedab4355cd7e0d353ecdd65d"
+  },
+  {
+    "file": "ludvigson_ng.mat",
+    "url": "https://www.sydneyludvigson.com/s/DataReplicationFiles.zip",
+    "bytes": 252140,
+    "archive_sha256": "073b30abc3fc5b63a529fd7b9ad24b8356ba5b8fc60e31f776be8a80bb1376e7",
+    "archive_member": "Data&ReplicationFiles/lndata.mat",
+    "sha256": "0c8206b5562731979cabdef58680be0c9457b2719b0632606533335a19302196"
+  },
+  {
+    "file": "bondprice.dat",
+    "url": "https://www.johnhcochrane.com/s/bondprice.dat",
+    "bytes": 39939,
+    "sha256": "c35bc96cfaee6b6a537df81f7a1d1dc0b6099688fdebae81f6e0ca4440e93d7a"
+  }
+]

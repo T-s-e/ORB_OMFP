@@ -1,0 +1,123 @@
+{
+  "generator": "orb_omfp.figures.draw_paper",
+  "code_sha256": "2e83c4fbe6902b5ad3be74036c4dc650334087269adca9d110a31d54e7800bbd",
+  "inputs_sha256": {
+    "tables/datasets.csv": "890e1904e34518a234c77d50cf40c90eb774692d460046ddcd63775c0d601c5c",
+    "tables/features.csv": "ab4d14944a35aaabf272665a0d73298a9f6ea99ba74f9ac24b92653a22749c81",
+    "tables/preprocessing_details.csv": "2ac08ec029fb3f419d9574d537e227844a8f8d5c65ccb60520b197984a80fedb",
+    "tables/kernel_summary.csv": "2abfa22e018444f260b257f8ea5bcc32792c81e0d861690972f0d8dcb949ec6b",
+    "tables/kernel_profiles.csv": "c7e17131e7e69ac930a1a4a9c00681e102bbf1265439f249f5c1df02c9b0fed4",
+    "tables/kernel_bands.csv": "b9b1254847d713d4b15fa9b79cf2996d7d545d528efa744381d475558bfc8d3b",
+    "tables/geometry_curves.csv": "a7ef7b0adb986a68d410f47e21ab59040836fe9ad53bb68707d6dc13eb136ebd",
+    "tables/geometry_by_band.csv": "e0a5c099472d29369f02cd06afbd4825b83ae5d2c8501e9087dcc211f685415d",
+    "tables/length_equalization.csv": "e63267852fa29da2157ba534351ead72ec94d6bfff9766d4aaac8dc356e705c4",
+    "tables/length_summary.csv": "73467e2a306ea9e81773b68ac4e8fed4c238f1e12db6249a516928536ef4fa79",
+    "tables/homogeneity_checks.csv": "fdf74375d970048bfbc9d25d7282b15097e08b3b05328da51a6437e27740ed4d",
+    "tables/plateau_explanation.csv": "11bfaac29e86980949a0b10772fba49414e16cf9bc31dd37933bfa3b1aebe61c",
+    "tables/plateau_comparison.csv": "08a49a3418003f696b9f6272dbf41fdca9943867887aacb296bc37b4f7cab9f0",
+    "tables/ridgeless_by_P.csv": "a14e2f4b50291b468e09a8077e09c94438717009d0bd20fb6072d5536d1dc5f2",
+    "tables/selection.csv": "3ead9b4ca3baf69ff727b1f2ace2fd3d67057b8b1fd1e7039cc67a3864f57965",
+    "tables/selection_wide.csv": "ab3029334b452f0af49800c8dbbc9ae5d5de7134218e3f175fe7bd332ca540b1",
+    "tables/regularization_summary.csv": "e8175fc030ba81084e8c2be57802d6a98a91a21204e9f80f37840f33454ad059",
+    "tables/feature_budget.csv": "16a82bc77ca54966cd24f8daa1c353749e4e5d2ead42f378d62c6946f32af865",
+    "tables/feature_budget_wide.csv": "7a473cae9ff8d997ffbc72279b589edafab1a5fa58229197ecc18c957ab8e0c8",
+    "tables/validation_folds.csv": "f3566817c4f0a8c9f7e6df9d1c7aa68771259cdd34f0c391561d9769d8c93ace",
+    "tables/validation_curves_all_tasks.csv": "3d6a2f53b26dfbbd4f39d6ae13989991e1bd9fc3b6e12e737edcde96d93e7956",
+    "tables/spectrum.csv": "1a1e5817eff2b99e418dea649dcc7cfad5f1a7a72f605c8e0cb6f94d14fce15e",
+    "data/financial_surfaces.csv": "a86a866db2cf8bc659e9d2a78a8c3ff854aa2a715f4526e1bd30c69ad04796b7",
+    "data/finite_bands.csv": "3b876cb9595372566c3e9296a556cbd3fc1157f4fcfd3c1f304a0cd6dea41f2f",
+    "data/finite_optima.csv": "467b6e113704a20237946d0a5c794d7fe4dbfc4afaf6d2a513b64675fe7f3282",
+    "data/synthetic_surface.csv": "d7a2cdea7cec92b62b14d212d72a5079564d993a7efc62ec8628c006ed498598",
+    "data/reliability_transform.csv": "08fe51f49dbcbc94d195a0ee5576970d4b7a72fd8bffb4de75f24b9a2e0596b3",
+    "data/budget_curves.csv": "c112a6e8cd7542233d2f6e67f807ebac1b6d2a0216b80a6be07f4e4e0bdcf255",
+    "data/budget_lambda_curves.csv": "14af1689f930947efa136200d5ad2d2f0bca32b8fb9eb21e5b84c684a2495c02",
+    "data/kappa_sensitivity.csv": "5daec56799e9db9ee9992c3fd6eba9ac8cd36cd9ebb843916f931393cfdce9cc",
+    "data/band_kappa_ranges.csv": "644fb51bf23a6b34167384286671ff41fb0a0c460046bda168eccfb9e72b6fdd"
+  },
+  "figures": [
+    {
+      "number": "1.1",
+      "name": "fig_synthetic",
+      "function": "synthetic_surface",
+      "PNG_sha256": "eaf5cbef82a10a8cfd71fdc450104389cda89f57beb39d63b68b8405cc8cc144",
+      "PDF_sha256": "d8c5be914d470956d7c068cb1ac01a13baffc52bd0d3f418f850b7212a0c4fbf"
+    },
+    {
+      "number": "1.2",
+      "name": "fig_surfaces",
+      "function": "financial_surfaces",
+      "PNG_sha256": "808153d3904a6374ba2b382c7822933bcead3fe90ff984f0bcadbf4e81dbe561",
+      "PDF_sha256": "b61a35b81f36b18896fbf91287e9f5c097c1c5f653f85c6148ae02f8b0494b57"
+    },
+    {
+      "number": "4.1",
+      "name": "fig_surfaces_more",
+      "function": "financial_surfaces",
+      "PNG_sha256": "7cff93d30edfee5bab0c3727c735cf914c3e0d0aeae05fcf2fd34ed27ef8d51d",
+      "PDF_sha256": "869579acf082b70ae0e48de4a0d38f94ab2845a0b9ca8284e8bccfbe8587d4f8"
+    },
+    {
+      "number": "4.2",
+      "name": "fig_ridgeless",
+      "function": "ridgeless_plateau",
+      "PNG_sha256": "5cd44e114d0fea78353e4abc469d63cce802973ef931e0e51404efd25ac929a3",
+      "PDF_sha256": "29e417f130eddc40921e7e442cbc3323bc2aea1a144f0f47608da5f8137a0c4c"
+    },
+    {
+      "number": "4.3",
+      "name": "fig_profiles_kernel",
+      "function": "kernel_profiles",
+      "PNG_sha256": "a45b4f9be04ce716e8bdb38651d20557e93ee43117a35ef60977b54721a08d90",
+      "PDF_sha256": "f6e7d2cf1a0711a8b729a09b62e92201c3362a955b74dd9e7d5dee9d6a8e0039"
+    },
+    {
+      "number": "4.4",
+      "name": "fig_band_limit",
+      "function": "near_optimal_band",
+      "PNG_sha256": "21da2ed2b01b523f1e37d54849b38986900ee747e6ef15b9ea20dec0d04e2bfc",
+      "PDF_sha256": "3f80db6b54725de8aa73565802ed2960941d133a9fa9d4dab1421d72ed94663d"
+    },
+    {
+      "number": "4.5",
+      "name": "fig_selection",
+      "function": "training_selection",
+      "PNG_sha256": "ed41696957e9accb34e9e9ea2871839caea542ab137de7b4a833bb19a5bfbde5",
+      "PDF_sha256": "c364c92f1fdbacdd3d0a4a996eabb90247de182cede498cc6c67b0d299c24514"
+    },
+    {
+      "number": "4.6",
+      "name": "fig_alignment",
+      "function": "alignment",
+      "PNG_sha256": "e3849c36fca3670675dd6c860766edffe912b5216132307cc403fe28d8cae302",
+      "PDF_sha256": "ed67a440a3c56ed1d6acb5232ae2419fb4b9602f2b49dc882d7c8ea32440287f"
+    },
+    {
+      "number": "4.7",
+      "name": "fig_parabola",
+      "function": "normalized_parabola",
+      "PNG_sha256": "9f5c689eca5486a21c766e3d14ea5522708df26e95594b28ebf6a29850628c2c",
+      "PDF_sha256": "896668309a2ea801abcbb88ad72d135afd170c2832b55a16d4fb41759c972e00"
+    },
+    {
+      "number": "4.8",
+      "name": "fig_power_law",
+      "function": "power_law",
+      "PNG_sha256": "481328245079617ba771c4af2ba11d87a9de83e5e59c976c417c38573fa1ba68",
+      "PDF_sha256": "fd645757f0a75c754efa9d923a241fc516e34a1460bb0ee0edaffb330233d9f8"
+    },
+    {
+      "number": "4.9",
+      "name": "fig_band_check",
+      "function": "band_check",
+      "PNG_sha256": "1176e6920d51183fef647750442e33f2a216ec3db7caf139dee5a6ddc2bc8c3c",
+      "PDF_sha256": "8d9c76a5745c46425c42acf3e2955cee71e5ae9ac9d7d23706c86da9cad38a70"
+    },
+    {
+      "number": "4.10",
+      "name": "fig_reliability",
+      "function": "reliability_constant",
+      "PNG_sha256": "ff543be00d192fd25ec466a4c492420c14fcaa6850610e18b0ac21c206dacec2",
+      "PDF_sha256": "d7b4d3c31dbd5a8b7f2d283d86b2a801166c75ed56e12a866895d94f82099e6c"
+    }
+  ]
+}

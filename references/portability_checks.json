@@ -1,0 +1,58 @@
+[
+  {
+    "experiment": "budget",
+    "task": "gw",
+    "max_P": 200000,
+    "draws": 2,
+    "score_error": 0.0,
+    "prediction_error": 0.0
+  },
+  {
+    "experiment": "budget",
+    "task": "gw_bond",
+    "max_P": 200000,
+    "draws": 2,
+    "score_error": 0.0,
+    "prediction_error": 0.0
+  },
+  {
+    "experiment": "budget",
+    "task": "fred_equity",
+    "max_P": 200000,
+    "draws": 2,
+    "score_error": 0.0,
+    "prediction_error": 0.0
+  },
+  {
+    "experiment": "budget",
+    "task": "macro_treasury",
+    "max_P": 200000,
+    "draws": 2,
+    "score_error": 0.0,
+    "prediction_error": 0.0
+  },
+  {
+    "experiment": "surface",
+    "group": "GW",
+    "max_P": 200000,
+    "draws": 2,
+    "MSE_error": 0.0,
+    "controlled_MSE_error": 2.220446049250313e-15
+  },
+  {
+    "experiment": "surface",
+    "group": "FRED",
+    "max_P": 200000,
+    "draws": 2,
+    "MSE_error": 0.0,
+    "controlled_MSE_error": 6.661338147750939e-16
+  },
+  {
+    "experiment": "surface",
+    "group": "Treasury",
+    "max_P": 200000,
+    "draws": 2,
+    "MSE_error": 0.0,
+    "controlled_MSE_error": 1.3766765505351941e-14
+  }
+]

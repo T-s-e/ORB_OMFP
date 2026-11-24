@@ -1,0 +1,5 @@
+task,row,scale,relative_operator_error
+gw,155,2,1.1731748590009477e-11
+gw_bond,155,2,1.1731748590009477e-11
+fred_equity,415,2,8.2323954672298532e-14
+macro_treasury,160,2,6.3080770397193783e-14

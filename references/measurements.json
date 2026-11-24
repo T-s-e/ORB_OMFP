@@ -1,0 +1,157 @@
+[
+  {
+    "file": "measurements/data/band_kappa_ranges.csv",
+    "sha256": "644fb51bf23a6b34167384286671ff41fb0a0c460046bda168eccfb9e72b6fdd",
+    "bytes": 2066
+  },
+  {
+    "file": "measurements/data/budget_curves.csv",
+    "sha256": "c112a6e8cd7542233d2f6e67f807ebac1b6d2a0216b80a6be07f4e4e0bdcf255",
+    "bytes": 32005
+  },
+  {
+    "file": "measurements/data/budget_lambda_curves.csv",
+    "sha256": "14af1689f930947efa136200d5ad2d2f0bca32b8fb9eb21e5b84c684a2495c02",
+    "bytes": 1947776
+  },
+  {
+    "file": "measurements/data/financial_surfaces.csv",
+    "sha256": "a86a866db2cf8bc659e9d2a78a8c3ff854aa2a715f4526e1bd30c69ad04796b7",
+    "bytes": 12202389
+  },
+  {
+    "file": "measurements/data/finite_bands.csv",
+    "sha256": "3b876cb9595372566c3e9296a556cbd3fc1157f4fcfd3c1f304a0cd6dea41f2f",
+    "bytes": 62463
+  },
+  {
+    "file": "measurements/data/finite_optima.csv",
+    "sha256": "467b6e113704a20237946d0a5c794d7fe4dbfc4afaf6d2a513b64675fe7f3282",
+    "bytes": 14927
+  },
+  {
+    "file": "measurements/data/kappa_sensitivity.csv",
+    "sha256": "5daec56799e9db9ee9992c3fd6eba9ac8cd36cd9ebb843916f931393cfdce9cc",
+    "bytes": 7469
+  },
+  {
+    "file": "measurements/data/reliability_transform.csv",
+    "sha256": "08fe51f49dbcbc94d195a0ee5576970d4b7a72fd8bffb4de75f24b9a2e0596b3",
+    "bytes": 5582
+  },
+  {
+    "file": "measurements/data/synthetic_surface.csv",
+    "sha256": "d7a2cdea7cec92b62b14d212d72a5079564d993a7efc62ec8628c006ed498598",
+    "bytes": 805840
+  },
+  {
+    "file": "measurements/tables/datasets.csv",
+    "sha256": "890e1904e34518a234c77d50cf40c90eb774692d460046ddcd63775c0d601c5c",
+    "bytes": 503
+  },
+  {
+    "file": "measurements/tables/feature_budget.csv",
+    "sha256": "16a82bc77ca54966cd24f8daa1c353749e4e5d2ead42f378d62c6946f32af865",
+    "bytes": 5643
+  },
+  {
+    "file": "measurements/tables/feature_budget_wide.csv",
+    "sha256": "7a473cae9ff8d997ffbc72279b589edafab1a5fa58229197ecc18c957ab8e0c8",
+    "bytes": 662
+  },
+  {
+    "file": "measurements/tables/features.csv",
+    "sha256": "ab4d14944a35aaabf272665a0d73298a9f6ea99ba74f9ac24b92653a22749c81",
+    "bytes": 6302
+  },
+  {
+    "file": "measurements/tables/geometry_by_band.csv",
+    "sha256": "e0a5c099472d29369f02cd06afbd4825b83ae5d2c8501e9087dcc211f685415d",
+    "bytes": 2430
+  },
+  {
+    "file": "measurements/tables/geometry_curves.csv",
+    "sha256": "a7ef7b0adb986a68d410f47e21ab59040836fe9ad53bb68707d6dc13eb136ebd",
+    "bytes": 1113663
+  },
+  {
+    "file": "measurements/tables/homogeneity_checks.csv",
+    "sha256": "fdf74375d970048bfbc9d25d7282b15097e08b3b05328da51a6437e27740ed4d",
+    "bytes": 193
+  },
+  {
+    "file": "measurements/tables/kernel_bands.csv",
+    "sha256": "b9b1254847d713d4b15fa9b79cf2996d7d545d528efa744381d475558bfc8d3b",
+    "bytes": 2845
+  },
+  {
+    "file": "measurements/tables/kernel_profiles.csv",
+    "sha256": "c7e17131e7e69ac930a1a4a9c00681e102bbf1265439f249f5c1df02c9b0fed4",
+    "bytes": 527364
+  },
+  {
+    "file": "measurements/tables/kernel_summary.csv",
+    "sha256": "2abfa22e018444f260b257f8ea5bcc32792c81e0d861690972f0d8dcb949ec6b",
+    "bytes": 1303
+  },
+  {
+    "file": "measurements/tables/length_equalization.csv",
+    "sha256": "e63267852fa29da2157ba534351ead72ec94d6bfff9766d4aaac8dc356e705c4",
+    "bytes": 647
+  },
+  {
+    "file": "measurements/tables/length_summary.csv",
+    "sha256": "73467e2a306ea9e81773b68ac4e8fed4c238f1e12db6249a516928536ef4fa79",
+    "bytes": 827
+  },
+  {
+    "file": "measurements/tables/plateau_comparison.csv",
+    "sha256": "08a49a3418003f696b9f6272dbf41fdca9943867887aacb296bc37b4f7cab9f0",
+    "bytes": 731
+  },
+  {
+    "file": "measurements/tables/plateau_explanation.csv",
+    "sha256": "11bfaac29e86980949a0b10772fba49414e16cf9bc31dd37933bfa3b1aebe61c",
+    "bytes": 673
+  },
+  {
+    "file": "measurements/tables/preprocessing_details.csv",
+    "sha256": "2ac08ec029fb3f419d9574d537e227844a8f8d5c65ccb60520b197984a80fedb",
+    "bytes": 935
+  },
+  {
+    "file": "measurements/tables/regularization_summary.csv",
+    "sha256": "e8175fc030ba81084e8c2be57802d6a98a91a21204e9f80f37840f33454ad059",
+    "bytes": 1008
+  },
+  {
+    "file": "measurements/tables/ridgeless_by_P.csv",
+    "sha256": "a14e2f4b50291b468e09a8077e09c94438717009d0bd20fb6072d5536d1dc5f2",
+    "bytes": 17745
+  },
+  {
+    "file": "measurements/tables/selection.csv",
+    "sha256": "3ead9b4ca3baf69ff727b1f2ace2fd3d67057b8b1fd1e7039cc67a3864f57965",
+    "bytes": 3419
+  },
+  {
+    "file": "measurements/tables/selection_wide.csv",
+    "sha256": "ab3029334b452f0af49800c8dbbc9ae5d5de7134218e3f175fe7bd332ca540b1",
+    "bytes": 417
+  },
+  {
+    "file": "measurements/tables/spectrum.csv",
+    "sha256": "1a1e5817eff2b99e418dea649dcc7cfad5f1a7a72f605c8e0cb6f94d14fce15e",
+    "bytes": 185700
+  },
+  {
+    "file": "measurements/tables/validation_curves_all_tasks.csv",
+    "sha256": "3d6a2f53b26dfbbd4f39d6ae13989991e1bd9fc3b6e12e737edcde96d93e7956",
+    "bytes": 203424
+  },
+  {
+    "file": "measurements/tables/validation_folds.csv",
+    "sha256": "f3566817c4f0a8c9f7e6df9d1c7aa68771259cdd34f0c391561d9769d8c93ace",
+    "bytes": 15343
+  }
+]

@@ -1,0 +1,33 @@
+{
+  "raw_common_start": "1959-01-01",
+  "raw_common_end": "2024-12-01",
+  "raw_common_n": 792,
+  "warmup_months": 5,
+  "warmup_reason": "two official transformation lags + two macro release lags + one AR lag",
+  "split_rule": "first floor(2*N/3) usable common monthly observations train; remaining observations test",
+  "train_start": "1959-06-01",
+  "train_end": "2003-01-01",
+  "test_start": "2003-02-01",
+  "test_end": "2024-12-01",
+  "n": 524,
+  "no": 263,
+  "tasks": [
+    "gw",
+    "gw_bond",
+    "fred_equity"
+  ],
+  "feature_recipe": "published economic transforms, train zscore, train-fit AR(1) residual, train demean, global train RMS",
+  "target_recipe": "train-fit AR(1) residual and fixed train mean/sd; affine-equivalent to zscore then AR",
+  "FRED_release_lag": 2,
+  "GW_release_lag": 1,
+  "horizon_months": 1,
+  "final_holdout_used_for_preprocessing": false,
+  "preprocessing_search": false,
+  "rf_maps": 128,
+  "rf_seed": 1116100,
+  "confirmation_seed": 1216100,
+  "normalizer": "fixed analytic m=0.5",
+  "risk": "mean loss of individual RF models, not ensemble loss",
+  "M3": "last 96 training months for validation; preprocessing refitted inside fit block",
+  "M4": "past-only expanding folds, minimum fit 120 months, validation blocks 12 months; no purge for disjoint monthly labels; post-block embargo inactive"
+}

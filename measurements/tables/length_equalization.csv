@@ -1,0 +1,17 @@
+task,intervention,deltaL
+gw,original,3.4979496971733584
+gw,train_unit,1.6520042375670243
+gw,test_unit,2.1695433531154351
+gw,both_unit,0.94520163484845732
+gw_bond,original,3.4979496971733584
+gw_bond,train_unit,1.6520042375670243
+gw_bond,test_unit,2.1695433531154351
+gw_bond,both_unit,0.94520163484845732
+fred_equity,original,17.816760147882533
+fred_equity,train_unit,12.45622831930044
+fred_equity,test_unit,0.63714163032935922
+fred_equity,both_unit,0.48952822872277979
+macro_treasury,original,0.6979104896875663
+macro_treasury,train_unit,0.56438071126391143
+macro_treasury,test_unit,0.56915392543751897
+macro_treasury,both_unit,0.46283895798824048

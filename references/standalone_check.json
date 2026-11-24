@@ -1,0 +1,39 @@
+{
+  "status": "passed",
+  "fresh_directory": true,
+  "preexisting_arrays_used": false,
+  "working_repository_imports": false,
+  "stages": [
+    {
+      "command": "python -m orb_omfp prepare",
+      "passed": true,
+      "seconds": 1.0590002536773682
+    },
+    {
+      "command": "python -m orb_omfp run kernel",
+      "passed": true,
+      "seconds": 2.3657267093658447
+    },
+    {
+      "command": "python -m orb_omfp run selection",
+      "passed": true,
+      "seconds": 5.100242853164673
+    },
+    {
+      "command": "python -m orb_omfp tables",
+      "passed": true,
+      "seconds": 0.8737339973449707
+    },
+    {
+      "command": "python -m orb_omfp verify",
+      "passed": true,
+      "seconds": 1.9226570129394531
+    },
+    {
+      "command": "python -m orb_omfp figures",
+      "passed": true,
+      "seconds": 18.334321975708008
+    }
+  ],
+  "figure_pairs": 12
+}

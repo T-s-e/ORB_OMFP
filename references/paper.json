@@ -1,0 +1,11 @@
+{
+  "title": "Optimal Regularization Band for Overparameterized Models in Financial Prediction",
+  "paper_sha256": "5138cfdfba4e8b2c8357290a0851189ac42d22851af674b649a14800bb6f56c2",
+  "figures": 12,
+  "tasks": [
+    "gw",
+    "gw_bond",
+    "fred_equity",
+    "macro_treasury"
+  ]
+}

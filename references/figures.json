@@ -1,0 +1,62 @@
+[
+  {
+    "number": "1.1",
+    "name": "fig_synthetic",
+    "function": "synthetic_surface"
+  },
+  {
+    "number": "1.2",
+    "name": "fig_surfaces",
+    "function": "financial_surfaces"
+  },
+  {
+    "number": "4.1",
+    "name": "fig_surfaces_more",
+    "function": "financial_surfaces"
+  },
+  {
+    "number": "4.2",
+    "name": "fig_ridgeless",
+    "function": "ridgeless_plateau"
+  },
+  {
+    "number": "4.3",
+    "name": "fig_profiles_kernel",
+    "function": "kernel_profiles"
+  },
+  {
+    "number": "4.4",
+    "name": "fig_band_limit",
+    "function": "near_optimal_band"
+  },
+  {
+    "number": "4.5",
+    "name": "fig_selection",
+    "function": "training_selection"
+  },
+  {
+    "number": "4.6",
+    "name": "fig_alignment",
+    "function": "alignment"
+  },
+  {
+    "number": "4.7",
+    "name": "fig_parabola",
+    "function": "normalized_parabola"
+  },
+  {
+    "number": "4.8",
+    "name": "fig_power_law",
+    "function": "power_law"
+  },
+  {
+    "number": "4.9",
+    "name": "fig_band_check",
+    "function": "band_check"
+  },
+  {
+    "number": "4.10",
+    "name": "fig_reliability",
+    "function": "reliability_constant"
+  }
+]
